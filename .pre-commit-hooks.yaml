@@ -1,0 +1,7 @@
+-   id: clear-output
+    name: clear jupyter notebook output
+    description: Removes outputs from Jupyter notebooks.
+    entry: jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace
+    language: system
+    types: [jupyter]
+    stages: [pre-commit]
