@@ -5,3 +5,4 @@
     language: system
     types: [jupyter]
     stages: [pre-commit]
+    additional_dependencies: [jupyter]
